@@ -21,12 +21,14 @@ int main()
     scanf("%d",&dist[i][j]);
    }
  floydWarshell();
- printf (" \n\n shortest distances between every pair of vertices \n");
+ printf (" \n\n shortest distances between every pair of vertice \n");
  for (int i = 0; i < n; i++)
  {
   for (int j = 0; j < n; j++)
    printf ("%d\t", dist[i][j]);
   printf("\n");
  }
+
+
  return 0;
 }
